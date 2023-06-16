@@ -3,148 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Главная страница сайта</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Air Asia</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <a href="/" class="logo">
-                <img src="#" alt="" class="logo__icon">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item">Главная</li>
-                    <li class="menu__item">Услуги</li>
-                    <li class="menu__item">Отзывы</li>
+    <div class="wrapper main-page-wrapper">
+        <section class="hero">
+            <div class="container">
+                <header class="header">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="air asia logo" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item_active"><a href="#" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <address class="contacts">
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__dropdown-title">График работы</div>
+                    </address>
+                </header>
+                <div class="hero__content">
+                    <div class="hero__text-section">
+                        <h1 class="hero__title">Авторские туры по Азии</h1>
+                        <h4 class="hero__subtitle">Открой для себя Азию</h4>
+                        <a href="#" class="btn btn_color_red">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title section__title_background">Горящие туры</h2>
+                <ul class="offers">
+                    <li class="offers__item">
+                        <div class="offers__header">
+                            <img src="./img/river.png" alt="" class="offers__header-img">
+                        </div>
+                        <div class="offers__content">
+                            <h3 class="offers__title">Таиланд</h3>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/calendar.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">7- 12 ночей</div>
+                                </div>
+                            </div>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/meal.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">Завтраки</div>
+                                </div>
+                            </div>
+                            <p class="offers__text">
+                                Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                            </p>
+                            <a href="#" class="btn btn_color_white">Смотреть</a>
+                        </div>
+                    </li>
+                    <li class="offers__item">
+                        <div class="offers__header">
+                            <img src="./img/pool.png" alt="" class="offers__header-img">
+                        </div>
+                        <div class="offers__content">
+                            <h3 class="offers__title">Бали</h3>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/calendar.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">7- 12 ночей</div>
+                                </div>
+                            </div>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/meal.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">Завтраки</div>
+                                </div>
+                                
+                            </div>
+                            <p class="offers__text">
+                                Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                            </p>
+                            <a href="#" class="btn btn_color_white">Смотреть</a>
+                        </div>
+                    </li>
+                    <li class="offers__item">
+                        <div class="offers__header">
+                            <img src="./img/ocean.png" alt="" class="offers__header-img">
+                        </div>
+                        <div class="offers__content">
+                            <h3 class="offers__title">Индонезия</h3>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/calendar.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">7- 12 ночей</div>
+                                </div>
+                            </div>
+                            <div class="offers__desc-cell">
+                                <div class="offers__days">
+                                    <img src="./img/meal.png" alt="" class="offers__icon">
+                                    <div class="offers__desc">Завтраки</div>
+                                </div>
+                                
+                            </div>
+                            <p class="offers__text">
+                                Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                            </p>
+                            <a href="#" class="btn btn_color_white">Смотреть</a>
+                        </div>
+                    </li>
                 </ul>
-            </nav>
-            <address class="contacts">
-                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                <div class="contacts__workhours">График работы</div>
-            </address>
-        </header>
-        <main class="main-content">
-            <div class="content">
-                <div class="content__main">
-                    <h1 class="content__title-h1">Авторские туры по Азии</h1>
-                    <p class="content__desc">Открой для себя Азию</p>
-                    <button class="content__btn">Подробнее</button>
-                </div>
-                <div class="content__title-img">
-                    <h2 class="content__title-h2">Горящие туры</h2>
-                    <img src="#" alt="" class="content__img">
-                </div>
-                <div class="content__card-box">
-                    <div class="cards-item">
-                        <img src="#" alt="" class="cards-item__img">
-                        <h3 class="cards-item__title">Таиланд</h3>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-1">
-                            <p class="cards-item_text">7-12 ночей</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Новости и акции</h2>
+                <ul class="news">
+                    <li class="news__item">
+                        <img src="./img/plain.png" alt="поездка на новый год" class="news__cover">
+                        <div class="news__text-content">
+                            <div class="news__date">Декабрь 2019</div>
+                            <div class="news__title">Дешевые путевки на Новый Год!</div>
+                            <div class="news__desc">Проведи новый год в Тайланде</div>
                         </div>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-2">
-                            <p class="cards-item_text">Завтраки</p>
+                    </li>
+                    <li class="news__item">
+                        <img src="./img/Surfer.png" alt="поездка на новый год" class="news__cover">
+                        <div class="news__text-content">
+                            <div class="news__date">Декабрь 2019</div>
+                            <div class="news__title">Акция для серфенгистов!</div>
+                            <div class="news__desc">В сезон больших волн скидка на путевку в Тайланд на островсерфенгистов. Удачного пути!</div>
                         </div>
-                        <p class="cards-item__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="cards-item__btn">Смотреть</button>
-                    </div>
-                    <div class="cards-item">
-                        <img src="#" alt="" class="cards-item__img">
-                        <h3 class="cards-item__title">Бали</h3>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-1">
-                            <p class="cards-item__text">7-12 ночей</p>
-                        </div>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-2">
-                            <p class="cards-item__text">Завтраки</p>
-                        </div>
-                        <p class="cards-item__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="cards-item__btn">Смотреть</button>
-                    </div>
-                    <div class="cards-item">
-                        <img src="#" alt="" class="cards-item__img">
-                        <h3 class="cards-item__title">Индонезия</h3>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-1">
-                            <p class="cards-item__text">7-12 ночей</p>
-                        </div>
-                        <div class="cards-item__box">
-                            <img src="#" alt="" class="cards-item__icon-2">
-                            <p class="cards-item__text">Завтраки</p>
-                        </div>
-                        <p class="cards-item__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                        <button class="cards-item__btn">Смотреть</button>
-                    </div>
-                </div>
-                <h2 class="content__title-h2">Новости и Акции</h2>
-                <div class="content__image">
-                    <img src="#" alt="" class="content__image-elem">
-                    <div class="content__date">Декабрь 2019</div>
-                    <h3 class="content__title-h3">Дешевые путевки на Новый год</h3>
-                    <p class="content__text">проведи новый год в Таиланде</p>  
-                </div>
-                <div class="content__image">
-                    <img src="#" alt="" class="content__image-elem">
-                    <div class="content__date">Декабрь 2019</div>
-                    <h3 class="content__title-h3">Акция для серфенгистов!</h3>
-                    <p class="content__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>  
-                </div>
-                <div class="paginator">
-                    <div class="paginator__display">Страница 1 из 7</div>
-                    <ul class="paginator__list">
-                        <li class="paginator__item">1</li>
-                        <li class="paginator__item">2</li>
-                        <li class="paginator__item">3</li>
-                        <li class="paginator__item">4</li>
-                        <li class="paginator__item">5</li>
-                        <li class="paginator__item">6</li>
-                        <li class="paginator__item">7</li>
+                    </li>
+                </ul>
+                <div class="pager">
+                    <div class="pager__display">Страница 1 из 7</div>
+                    <ul class="pager__list">
+                        <li class="pager__item pager__item_active"><a href="#" class="pager__link">1</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">2</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">3</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">4</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">5</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">6</a></li>
+                        <li class="pager__item"><a href="#" class="pager__link">7</a></li>
                     </ul>
                 </div>
-                <div class="content__left-block">
-                    <img src="#" alt="" class="content__left-img">
-                </div>
-                <div class="content__right-block">
-                    <img src="#" alt="" class="content__right-img">
-                    <h2 class="content__title-h2">О нас</h2>
-                    <p class="content__right-block-desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-                    <button class="content__btn">Подробнее</button>
-                </div>
-                <hr>
             </div>
-        </main>
-        <footer class="footer">
-            <a href="/" class="logo">
-                <img src="#" alt="" class="logo__icon">
-            </a>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item">Главная</li>
-                    <li class="menu__item">Услуги</li>
-                    <li class="menu__item">Отзывы</li>
-                </ul>
-            </nav>
-            <div class="icons">
-                <div class="icons__item">
-                    <img src="#" alt="" class="telegram">
-                </div>
-                <div class="icons__item">
-                    <img src="#" alt="" class="vk">
-                </div>
-                <div class="icons__item">
-                    <img src="#" alt="" class="facebook">
-                </div>
-                <div class="icons__item">
-                    <img src="#" alt="" class="instagram">
+        </section>
+        <section class="section section__margin-bottom">
+            <div class="container">
+                <div class="about">
+                    <div class="about__desc">
+                        <div class="about__title">О нас</div>
+                        <div class="about__desc-text">
+                            <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn_color_red">Подробнее</a>
+                    </div>
                 </div>
             </div>
-            <address class="contacts">
-                <div class="contacts__workhours-footer">Бесплатный звонок по России</div>
-                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            </address>
+        </section>
+        <footer class="footer-container">
+            <div class="container">
+                <div class="footer">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="air asia logo" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item_active"><a href="#" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="socials">
+                        <li class="socials__item socials__item_icon_telegram">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item_icon_vk">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item_icon_fb">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item_icon_insta">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                    </ul>
+                    <div class="footer__separator"></div>
+                    <address class="contacts">
+                        <div class="contacts__desc">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
