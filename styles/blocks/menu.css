@@ -1,0 +1,29 @@
+.menu {
+    font-style: normal;
+    text-align: right;
+    
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0px solid red;
+    margin-right: 50px;
+}
+
+.menu__item_active .menu__link{
+    color: #DA0100;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}

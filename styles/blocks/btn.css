@@ -1,0 +1,39 @@
+.btn {
+    display: inline-block;
+    border-radius: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn_color_red {
+    background-color: #F5170E;
+    padding: 17px 40px;
+}
+
+.btn_color_red:hover {
+    background-color: #DA0100;
+}
+
+.btn_color_white {
+    border:1px solid #F5170E;
+    color: #F5170E;
+    padding: 16px 30px;
+}
+
+.btn_color_white:hover {
+    color: #fff;
+    background-color: #F5170E;
+}
+
+.btn_color_white-big {
+    border:1px solid #F5170E;
+    color: #F5170E;
+    padding: 17px 40px;
+}
+
+.btn_color_white-big:hover {
+    color: #fff;
+    background-color: #F5170E;
+}

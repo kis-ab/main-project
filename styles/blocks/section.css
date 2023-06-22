@@ -1,0 +1,18 @@
+.section {
+    margin-bottom: 124px;
+}
+
+.section__margin-bottom {
+    margin-bottom: 76px;
+}
+
+
+.section__title_background {
+    background: url('../../img/flame.png') 287px center no-repeat;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+}

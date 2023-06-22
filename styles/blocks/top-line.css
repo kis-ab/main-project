@@ -1,0 +1,14 @@
+.top-line {
+    min-height: 404px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+    background: #001821 url('../../img/headline 1.png') center center no-repeat;
+}
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
