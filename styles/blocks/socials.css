@@ -17,37 +17,147 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
+    background: no-repeat;
+    position: relative;
 }
 
-.socials__item_icon_telegram .socials__link {
-    background-image: url("../../img/telegram.png");
+.socials__item_icon_telegram .socials__link:hover:before {
+    opacity: 1;
 }
 
-.socials__item_icon_telegram .socials__link:hover {
-    background-image: url("../../img/telegram_hover.png");
+.socials__item_icon_telegram .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item_icon_vk .socials__link {
-    background-image: url("../../img/vk.png");
+.socials__item_icon_telegram .socials__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -66px -66px;
+    transition: .3s;
 }
 
-.socials__item_icon_vk .socials__link:hover {
-    background-image: url("../../img/vk_hover.png");
+.socials__item_icon_telegram .socials__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -122px -66px;
+    opacity: 0;
+    transition: .3s;
 }
 
-.socials__item_icon_fb .socials__link {
-    background-image: url("../../img/f.png");
+.socials__item_icon_vk .socials__link:hover:before {
+    opacity: 1;
 }
 
-.socials__item_icon_fb .socials__link:hover {
-    background-image: url("../../img/f_hover.png");
+.socials__item_icon_vk .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item_icon_insta .socials__link {
-    background-image: url("../../img/in.png");
+.socials__item_icon_vk .socials__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -66px -122px;;
+    transition: .3s;
 }
 
-.socials__item_icon_insta .socials__link:hover {
-    background-image: url("../../img/in_hover.png");
+.socials__item_icon_vk .socials__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -10px -122px;;
+    opacity: 0;
+    transition: .3s;
 }
+
+.socials__item_icon_fb .socials__link:hover:before {
+    opacity: 1;
+}
+
+.socials__item_icon_fb .socials__link:hover:after {
+    opacity: 0;
+}
+
+.socials__item_icon_fb .socials__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -10px -10px;
+    transition: .3s;
+}
+
+.socials__item_icon_fb .socials__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -66px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.socials__item_icon_insta .socials__link:hover:before {
+    opacity: 1;
+}
+
+.socials__item_icon_insta .socials__link:hover:after {
+    opacity: 0;
+}
+
+.socials__item_icon_insta .socials__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -10px -66px;
+    transition: .3s;
+}
+
+.socials__item_icon_insta .socials__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/sprite.png') -122px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+

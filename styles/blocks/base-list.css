@@ -18,4 +18,5 @@
 
 .base-list__link:hover {
     filter: grayscale(0);
+    transition: filter .3s;
 }

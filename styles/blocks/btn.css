@@ -10,10 +10,12 @@
 .btn_color_red {
     background-color: #F5170E;
     padding: 17px 40px;
+    color: #fff;
 }
 
 .btn_color_red:hover {
     background-color: #DA0100;
+    transition: background-color .2s;
 }
 
 .btn_color_white {
@@ -25,6 +27,7 @@
 .btn_color_white:hover {
     color: #fff;
     background-color: #F5170E;
+    transition: border .2s, color .2s;
 }
 
 .btn_color_white-big {
@@ -36,4 +39,16 @@
 .btn_color_white-big:hover {
     color: #fff;
     background-color: #F5170E;
+    transition: border .2s, color .2s;
+}
+
+.btn_color_grey {
+    background-color: #8E8E8E;
+    padding: 17px 40px;
+    color: #fff;
+}
+
+.btn_color_grey:hover {
+    background-color: #2B2B2B;
+    transition: background-color .2s;
 }

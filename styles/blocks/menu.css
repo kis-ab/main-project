@@ -26,4 +26,5 @@
 
 .menu__link:hover {
     color: #DA0100;
+    transition: color .2s;
 }

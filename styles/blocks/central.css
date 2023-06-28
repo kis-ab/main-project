@@ -1,0 +1,16 @@
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__text {
+    margin-bottom: 52px;
+    font-size: 18px;
+}
+
+.central_asia {
+    opacity: 0;
+    animation: zoom .9s ease-in;
+    animation-fill-mode: forwards;
+}

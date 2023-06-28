@@ -4,8 +4,6 @@
     align-items: center;
 }
 
-
-
 .pager__display {
     margin-right: 25px;
 }
@@ -37,6 +35,7 @@
 .pager__link:hover {
     background: #fff;
     color:#F5170E;
+    transition: all .2s;
 }
 
 .pager__theme_red {
@@ -45,10 +44,12 @@
 
 .pager__theme_red .pager__item_active .pager__link {
     color: #fff;
-    background: #F5170E;
+    background-color: #F5170E;
 }
 
 .pager__theme_red .pager__link:hover {
     color: #fff;
-    background: #F5170E;
+    background-color: #F5170E;
+    transition: all .2s;
+
 }

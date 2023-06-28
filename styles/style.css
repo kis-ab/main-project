@@ -1,0 +1,40 @@
+/*Блоки для главной страницы*/
+@import url('../styles/blocks/main-page-wrapper.css');
+@import url('../styles/blocks/hero.css');
+@import url('../styles/blocks/header.css');
+@import url('../styles/blocks/logo.css');
+@import url('../styles/blocks/menu.css');
+@import url('../styles/blocks/contacts.css');
+@import url('../styles/blocks/section.css');
+@import url('../styles/blocks/btn.css');
+@import url('../styles/blocks/menu.css');
+@import url('../styles/blocks/offers.css');
+@import url('../styles/blocks/news.css');
+@import url('../styles/blocks/pager.css');
+@import url('../styles/blocks/about.css');
+@import url('../styles/blocks/footer.css');
+@import url('../styles/blocks/socials.css');
+
+/*Блоки для страницы услуги*/
+@import url('../styles/blocks/top-line.css');
+@import url('../styles/blocks/page-title.css');
+@import url('../styles/blocks/breadcrumbs.css');
+@import url('../styles/blocks/page-content.css');
+@import url('../styles/blocks/servise.css');
+@import url('../styles/blocks/inner-section.css');
+@import url('../styles/blocks/base-list.css');
+
+/*Блоки для страницы отзывы*/
+@import url('../styles/blocks/reviews.css');
+@import url('../styles/blocks/review.css');
+@import url('../styles/blocks/avatar.css');
+@import url('../styles/blocks/tag.css');
+@import url('../styles/blocks/separator.css');
+@import url('../styles/blocks/form.css');
+@import url('../styles/blocks/controls.css');
+
+/*Блоки для приветственной страницы*/
+@import url('../styles/blocks/welcome.css');
+@import url('../styles/blocks/central.css');
+@import url('../styles/blocks/keyframes.css');
+@import url('../styles/blocks/dropdown.css');
